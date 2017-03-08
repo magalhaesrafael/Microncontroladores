@@ -1,0 +1,15 @@
+-O que são sistemas embarcados?
+    Sistemas desenvolvidos para a execução de apenas uma aplicação. 
+    
+-O que são sistemas microprocessados?
+    Sistemas controlados por um microprocessador (CPU).
+-Apresente aplicações de sistemas embarcados:
+  *Para a indústria automotiva:
+      Controle de velocidade, diagnósticos do veículo, ar condicionado, etc.
+  *Para eletrodomésticos:
+      Controle de temperatura de geladeiras e ar condicionados, em fornos microondas, etc.
+  *Para automação industrial:
+      Controle de eixos mecânicos.
+-Cite arquiteturas possíveis e as diferenças entre elas:
+
+-Por que usamos o MSP 430 na disciplina ao invés de outro microntrolador?
