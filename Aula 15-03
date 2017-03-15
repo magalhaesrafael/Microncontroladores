@@ -1,0 +1,58 @@
+Data: 15/03/2017
+
+Q1. Quais as diferenças entre os barramentos de dados e de endereços?
+  Barramento de dados: responsável pelo transporte de informação de instruções (código da operação), variáveis de processamento em cálculos
+ intermediários ou infromações provenientes de periroféricos (teclado).
+ 
+  Barramento de endereços: utilizado para informar os endereços físicos e locais de memória de um computador que o microprocessador 
+ ou dispositivo deseja ler ou escrever.
+ 
+Q2. Quais são as diferenças entre as memórias RAM e ROM?
+  RAM: memória volátil, que perde os dados armazenados quando é encerrada a alimentação de energia no PC. Utilizado para operações
+temporárias. Leitura de acesso aleatório. Memória de escrita e leitura.
+  ROM: memória não-volátil, que não perde os dados armazenados quando é encerrada a alimentação de energia no PC. A velocidade de escrita de
+dados é mais lenta que na memória RAM. Memória de leitura.
+
+Q3. Considere o código abaixo, de 12 linhas:
+
+    1.   #include <stdio.h>
+    2.   int main(void)
+    3.   {
+    4.      int i;
+    5.      printf("Insira um número inteiro: ");
+    6.      scanf("%d", &i);
+    7.      if(i%2)
+    8.         printf("%d eh impar.\n");
+    9.      else
+   10.         printf("%d eh par.\n");
+   11.      return 0;
+   12.   }
+
+Para este código, responda:
+	(a) A variável 'i' é armazenada na memória RAM ou ROM? Por quê?
+     A variável é armazenada na memória RAM, pois será usada apenas enquanto o programa estiver sendo rodado. Após isso, será apagado.
+     
+	(b) O programa compilado a partir deste código é armazenado na memória RAM ou ROM? Por quê?
+     É armazenado em memória RAM, a memória ROM é apenas uma memória de leitura.
+     
+Q4. Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
+   Harvard: cálculo e leitura da próxima instrução de dados pode ser realizado ao mesmo tempo.    
+   Von Neumann:leitura ou cálculo por vez.
+   A diferença se deve a arquitetura do barramento de dados e de memória que dividem o mesmo barramento de endereço na arquitetura Von
+ Neumann.
+   
+Q5. Considere a variável inteira 'i', armazenando o valor 0x8051ABCD. Se 'i' é armazenada na memória a partir do endereço 0x0200, como ficam este byte e os seguintes, considerando que a memória é:
+	(a) Little-endian?
+      0x0200 - 0xCD
+      0x0201 - 0xAB
+      0x0202 - 0x51
+      0x0203 - 0x80
+      
+	(b) Big-endian?
+      0x0200 - 0x80
+      0x0201 - 0x51
+      0x0202 - 0xAB
+      0x0203 - 0xCD
+      
+Q6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
+   
